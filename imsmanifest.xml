@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest identifier="Course_ID1" version="1.0" 
+       xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+       xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                           http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                           http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<adlcp:location>metadata.xml</adlcp:location> 
+	</metadata>
+	<organizations default="Course_ID1_ORG">
+		<organization identifier="Course_ID1_ORG">
+			<title>Captivate E-Learning Course</title>
+			<item identifier="Course_ID1_SCO" isvisible="true" identifierref="Course_ID1_SCO_RES">
+				<title>index_SCO_Title</title>
+			</item>
+			<metadata>
+				<schema>ADL SCORM</schema>
+				<schemaversion>1.2</schemaversion>
+				<adlcp:location>metadata.xml</adlcp:location> 
+			</metadata>	
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="Course_ID1_SCO_RES" type="webcontent" href="index.html" adlcp:scormtype="sco">
+			
+			<metadata>
+				<schema>ADL SCORM</schema>
+				<schemaversion>1.2</schemaversion>
+				<adlcp:location>metadata.xml</adlcp:location> 
+			</metadata>
+			
+			<file href="assets/htmlimages/Answer_checkbox_correct.png"/>
+		    <file href="index.html"/>
+			<file href="scormdriver.js"/>
+			<file href="browsersniff.js"/>
+			
+<file href="assets/htmlimages/Answer_checkbox_incorrect.png"/> 
+<file href="assets/htmlimages/Answer_radio_correct.png"/> 
+<file href="assets/htmlimages/Answer_radio_incorrect.png"/> 
+<file href="assets/htmlimages/Download_certificate_icon.svg"/> 
+<file href="assets/htmlimages/img_trans.gif"/> 
+<file href="assets/js/project.js"/> 
+<file href="dist/main.chunk.js"/> 
+<file href="dist/main.chunk.js.br"/> 
+<file href="dist/runtime-main.bundle.js"/> 
+<file href="dist/vendors-main.chunk.js"/> 
+<file href="dist/vendors-main.chunk.js.LICENSE.txt"/> 
+<file href="dist/vendors-main.chunk.js.br"/> 
+<file href="dr/010447.png"/> 
+<file href="dr/010571.png"/> 
+<file href="dr/010695.png"/> 
+<file href="dr/010819.png"/> 
+<file href="dr/010943.png"/> 
+<file href="dr/011067.png"/> 
+<file href="dr/011183.svg"/> 
+<file href="dr/011332.png"/> 
+<file href="dr/011429.png"/> 
+<file href="dr/012262.png"/> 
+<file href="dr/012616.png"/> 
+<file href="dr/01520.svg"/> 
+<file href="dr/01542.svg"/> 
+<file href="dr/015428.png"/> 
+<file href="dr/015973.png"/> 
+<file href="dr/016609.jpg"/> 
+<file href="dr/01684.svg"/> 
+<file href="dr/017083.png"/> 
+<file href="dr/017336.png"/> 
+<file href="dr/017339.png"/> 
+<file href="dr/017671.png"/> 
+<file href="dr/017673.png"/> 
+<file href="dr/017675.png"/> 
+<file href="dr/017678.png"/> 
+<file href="dr/017759.png"/> 
+<file href="dr/03592.png"/> 
+<file href="dr/04087.svg"/> 
+<file href="dr/04863.png"/> 
+<file href="dr/04929.png"/> 
+<file href="dr/04995.png"/> 
+<file href="dr/05056.svg"/> 
+<file href="dr/05059.svg"/> 
+<file href="dr/05062.svg"/> 
+<file href="dr/05068.svg"/> 
+<file href="dr/05071.svg"/> 
+<file href="dr/05074.svg"/> 
+<file href="dr/0555.svg"/> 
+<file href="dr/07385.svg"/> 
+<file href="dr/07764.png"/> 
+<file href="dr/07858.png"/> 
+<file href="dr/07867.png"/> 
+<file href="dr/07870.png"/> 
+<file href="dr/07873.png"/> 
+<file href="dr/07876.png"/> 
+<file href="dr/07879.png"/> 
+<file href="dr/07882.png"/> 
+<file href="dr/08697.png"/> 
+<file href="dr/08912.png"/> 
+<file href="dr/08965.png"/> 
+<file href="dr/09026.png"/> 
+<file href="dr/09078.png"/> 
+<file href="dr/09138.png"/> 
+<file href="dr/09191.png"/> 
+<file href="dr/09251.png"/> 
+<file href="dr/09304.png"/> 
+<file href="dr/loading.gif"/> 
+<file href="goodbye.html"/> 
+<file href="index.html"/> 
+<file href="Utilities.js"/> 
+		</resource>
+	</resources>
+</manifest>
